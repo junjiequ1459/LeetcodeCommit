@@ -3,8 +3,6 @@
       
        on:
          workflow_dispatch:
-         schedule:
-           - cron: "0 8 * * *" #runs once a day
 
        permissions:
           contents: write
